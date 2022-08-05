@@ -22,12 +22,12 @@ public class OnClick : MonoBehaviour
         SceneManager.LoadScene("Menu");
     }
     public void OnScanARClick(){
-
+        // SceneManager.LoadScene("Menu");
     }
     public void OnMenuClick(){
-
+// SceneManager.LoadScene("Menu");
     }
     public void OnProfileClick(){
-        
+        // SceneManager.LoadScene("Menu");
     }
 }
