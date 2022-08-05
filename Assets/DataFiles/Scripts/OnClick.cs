@@ -21,4 +21,13 @@ public class OnClick : MonoBehaviour
     public void OnBackClick(){
         SceneManager.LoadScene("Menu");
     }
+    public void OnScanARClick(){
+
+    }
+    public void OnMenuClick(){
+
+    }
+    public void OnProfileClick(){
+        
+    }
 }
