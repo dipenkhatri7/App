@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64506
+50764
 Successfully changed project path to: /Users/dipenkhatri/Desktop/Restaurant
 /Users/dipenkhatri/Desktop/Restaurant
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,8 +54,8 @@ Successfully changed project path to: /Users/dipenkhatri/Desktop/Restaurant
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 112.96 ms, found 6 plugins.
-Preloading 3 native plugins for Editor in 8.48 ms.
+Refreshing native plugins compatible for Editor in 72.67 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 4.22 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/dipenkhatri/Desktop/Restaurant/Assets
@@ -69,61 +69,60 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56773
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.003174 seconds.
+Registered in 0.000667 seconds.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
-[usbmuxd] Attached: 1 0bf578f6fddbe1f8478f91c4da409effbd05424a
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 198.27 ms, found 6 plugins.
-Preloading 3 native plugins for Editor in 7.07 ms.
+Refreshing native plugins compatible for Editor in 76.91 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 2.58 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.107 seconds
+- Completed reload, in  0.417 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1108ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (417ms)
+		BeginReloadAssembly (33ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (931ms)
-			LoadAssemblies (61ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (320ms)
+			LoadAssemblies (33ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (218ms)
+			SetupTypeCache (71ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (550ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (204ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (139ms)
+				InitializePlatformSupportModulesInManaged (48ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (205ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (134ms)
-				ProcessInitializeOnLoadMethodAttributes (69ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (50ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007526 seconds.
+Registered in 0.007277 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/dipenkhatri/Desktop/Restaurant/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image /Users/dipenkhatri/Desktop/Restaurant/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 6 plugins.
-Preloading 3 native plugins for Editor in 4.44 ms.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 2.59 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -160,46 +159,44 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 (Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 130)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.826 seconds
+- Completed reload, in  1.315 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1827ms)
-		BeginReloadAssembly (200ms)
+	ReloadAssembly (1316ms)
+		BeginReloadAssembly (168ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (123ms)
-		EndReloadAssembly (1504ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (2ms)
-			SetupTypeCache (404ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (901ms)
+			CreateAndSetChildDomain (119ms)
+		EndReloadAssembly (1074ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (766ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (5ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (753ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (669ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-database is locked
-database is locked
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 6 plugins.
-Preloading 3 native plugins for Editor in 3.95 ms.
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 2.58 ms.
 Unloading 3435 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (143.4 KB). Loaded Objects now: 4224.
-Memory consumption went from 245.2 MB to 245.1 MB.
-Total: 3.385000 ms (FindLiveObjects: 0.180208 ms CreateObjectMapping: 0.071333 ms MarkObjects: 3.011875 ms  DeleteObjects: 0.121042 ms)
+Unloading 55 unused Assets / (149.8 KB). Loaded Objects now: 4224.
+Memory consumption went from 245.1 MB to 245.0 MB.
+Total: 2.804500 ms (FindLiveObjects: 0.121042 ms CreateObjectMapping: 0.049208 ms MarkObjects: 2.479459 ms  DeleteObjects: 0.154209 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -213,77 +210,61 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 42965.391096 seconds.
-  path: Assets/DataFiles/Images/MENU ICON.jpeg
-  artifactKey: Guid(75b85388755c54d269ce4f718c02a4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DataFiles/Images/MENU ICON.jpeg using Guid(75b85388755c54d269ce4f718c02a4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eafa1656ad070967a5d704a4c8ede72') in 0.756665 seconds 
+  Time since last request: 1623.315603 seconds.
+  path: Assets/DataFiles/Scenes/ScanAr.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DataFiles/Scenes/ScanAr.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21668ec7700c23d1b5a5319af62c0ed2') in 0.005090 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.33 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 2.58 ms.
+Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (119.9 KB). Loaded Objects now: 4224.
+Memory consumption went from 175.1 MB to 175.0 MB.
+Total: 2.270875 ms (FindLiveObjects: 0.135583 ms CreateObjectMapping: 0.044667 ms MarkObjects: 2.001500 ms  DeleteObjects: 0.088459 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000600 seconds.
-  path: Assets/DataFiles/Images/PROFILE ICON.jpeg
-  artifactKey: Guid(476d4ed822dd64c72a98bbe975b2f6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DataFiles/Images/PROFILE ICON.jpeg using Guid(476d4ed822dd64c72a98bbe975b2f6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06e2bdb7b565da1c31ae913ea4b7eb0') in 0.007089 seconds 
+  Time since last request: 77.138097 seconds.
+  path: Assets/DataFiles/Images/MainLOGO 1.png
+  artifactKey: Guid(87966eb1df4a94bba9d65b0fca5e883f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DataFiles/Images/MainLOGO 1.png using Guid(87966eb1df4a94bba9d65b0fca5e883f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc018efde32ef83b43eaac06db1f1ef') in 0.255445 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.524358 seconds.
-  path: Assets/DataFiles/Images/MENU ICON.jpeg
-  artifactKey: Guid(75b85388755c54d269ce4f718c02a4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DataFiles/Images/MENU ICON.jpeg using Guid(75b85388755c54d269ce4f718c02a4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c77dd1ab7b850ebc503ebd2dbbb7f1') in 0.061428 seconds 
+  Time since last request: 14.187129 seconds.
+  path: Assets/DataFiles/Images/Rectangle 31.png
+  artifactKey: Guid(bff6d07a297e048c8a86ba7e65d55b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DataFiles/Images/Rectangle 31.png using Guid(bff6d07a297e048c8a86ba7e65d55b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea36cbe3875e8866e34cbc088c6b3040') in 0.004941 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.615200 seconds.
-  path: Assets/DataFiles/Images/PROFILE ICON.jpeg
-  artifactKey: Guid(476d4ed822dd64c72a98bbe975b2f6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DataFiles/Images/PROFILE ICON.jpeg using Guid(476d4ed822dd64c72a98bbe975b2f6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2340d6cf8d9521836c790edee8e19057') in 0.019909 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.039629 seconds.
-  path: Assets/DataFiles/Images/AR ICON.jpeg
-  artifactKey: Guid(ea7b5a2269c05498295cefa5e5cae710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DataFiles/Images/AR ICON.jpeg using Guid(ea7b5a2269c05498295cefa5e5cae710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42c68dc884c08f3c4992e02d960ed88') in 0.033511 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 65.854567 seconds.
-  path: Assets/DataFiles/Images/PROFILE ICON.png
-  artifactKey: Guid(b0442b76dcc2b465b99b0d465524d811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DataFiles/Images/PROFILE ICON.png using Guid(b0442b76dcc2b465b99b0d465524d811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83486cddb6f9312f74feb9dbebd0daed') in 0.450008 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.543418 seconds.
-  path: Assets/DataFiles/Images/PROFILE ICON.png
-  artifactKey: Guid(b0442b76dcc2b465b99b0d465524d811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DataFiles/Images/PROFILE ICON.png using Guid(b0442b76dcc2b465b99b0d465524d811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb43e1ae1224d0b83cb4b2d84c6d401') in 0.034284 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 35.821850 seconds.
-  path: Assets/DataFiles/Images/AR ICON.png
-  artifactKey: Guid(77e6ec020b8994301b6a008e67a90851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DataFiles/Images/AR ICON.png using Guid(77e6ec020b8994301b6a008e67a90851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120c5bdb7c6a53b4f8c759ed9aa22671') in 0.016321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.785122 seconds.
-  path: Assets/DataFiles/Images/MENU ICON.png
-  artifactKey: Guid(5710c8f58f20d413c8d57c7e445273e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DataFiles/Images/MENU ICON.png using Guid(5710c8f58f20d413c8d57c7e445273e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944673a8a1e9e226f22f767e28a57fc3') in 0.021163 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.229341 seconds.
-  path: Assets/DataFiles/Images/AR ICON.png
-  artifactKey: Guid(77e6ec020b8994301b6a008e67a90851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DataFiles/Images/AR ICON.png using Guid(77e6ec020b8994301b6a008e67a90851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479f817b3e627e945464fc307bf3970b') in 0.037162 seconds 
+  Time since last request: 14.141370 seconds.
+  path: Assets/DataFiles/Images/Rectangle 31.png
+  artifactKey: Guid(bff6d07a297e048c8a86ba7e65d55b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DataFiles/Images/Rectangle 31.png using Guid(bff6d07a297e048c8a86ba7e65d55b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b1b11d375136c1043f5dadb4bf2e10') in 0.013286 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003398 seconds.
+Registered in 0.002218 seconds.
 Begin MonoManager ReloadAssembly
-Thread 0x2a6d07000 may have been prematurely finalized
+Thread 0x17dcb7000 may have been prematurely finalized
 Symbol file LoadedFromMemory doesn't match image /Users/dipenkhatri/Desktop/Restaurant/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image /Users/dipenkhatri/Desktop/Restaurant/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 6 plugins.
-Preloading 3 native plugins for Editor in 3.91 ms.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 2.43 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 System.NullReferenceException: Object reference not set to an instance of an object
@@ -319,40 +300,40 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 (Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 130)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.439 seconds
+- Completed reload, in  1.075 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1439ms)
-		BeginReloadAssembly (131ms)
+	ReloadAssembly (1075ms)
+		BeginReloadAssembly (68ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (1222ms)
-			LoadAssemblies (62ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (952ms)
+			LoadAssemblies (31ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (268ms)
+			SetupTypeCache (167ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (813ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (702ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (5ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (701ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (630ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.40 ms, found 6 plugins.
-Preloading 3 native plugins for Editor in 4.03 ms.
+Refreshing native plugins compatible for Editor in 1.85 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 2.66 ms.
 Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (118.7 KB). Loaded Objects now: 4233.
-Memory consumption went from 255.4 MB to 255.2 MB.
-Total: 3.863083 ms (FindLiveObjects: 0.212750 ms CreateObjectMapping: 0.071291 ms MarkObjects: 3.424792 ms  DeleteObjects: 0.153084 ms)
+Unloading 48 unused Assets / (128.0 KB). Loaded Objects now: 4237.
+Memory consumption went from 251.2 MB to 251.1 MB.
+Total: 2.864833 ms (FindLiveObjects: 0.182541 ms CreateObjectMapping: 0.194542 ms MarkObjects: 2.395375 ms  DeleteObjects: 0.091875 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -361,21 +342,28 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 1465.745992 seconds.
+  path: Assets/DataFiles/Images/MainLOGO 1.png
+  artifactKey: Guid(87966eb1df4a94bba9d65b0fca5e883f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DataFiles/Images/MainLOGO 1.png using Guid(87966eb1df4a94bba9d65b0fca5e883f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8efaef8c0b56c771efad2093473f920') in 0.024806 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004201 seconds.
+Registered in 0.004096 seconds.
 Begin MonoManager ReloadAssembly
-Thread 0x17f363000 may have been prematurely finalized
+Thread 0x17dcb7000 may have been prematurely finalized
 Symbol file LoadedFromMemory doesn't match image /Users/dipenkhatri/Desktop/Restaurant/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image /Users/dipenkhatri/Desktop/Restaurant/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 6 plugins.
 Preloading 3 native plugins for Editor in 3.90 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -412,250 +400,40 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 (Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 130)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.411 seconds
+- Completed reload, in  1.391 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1411ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (1392ms)
+		BeginReloadAssembly (98ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1226ms)
+		EndReloadAssembly (1208ms)
 			LoadAssemblies (45ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (270ms)
+			SetupTypeCache (260ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (824ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (821ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
+				InitializePlatformSupportModulesInManaged (30ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (5ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (707ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.73 ms, found 6 plugins.
-Preloading 3 native plugins for Editor in 7.78 ms.
-Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (118.7 KB). Loaded Objects now: 4236.
-Memory consumption went from 255.6 MB to 255.5 MB.
-Total: 8.502708 ms (FindLiveObjects: 0.738500 ms CreateObjectMapping: 0.241959 ms MarkObjects: 7.073792 ms  DeleteObjects: 0.447000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 324.971660 seconds.
-  path: Assets/DataFiles/Materials/chocolatecake.obj
-  artifactKey: Guid(660396ca893e34443be44c4014d225f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DataFiles/Materials/chocolatecake.obj using Guid(660396ca893e34443be44c4014d225f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384dd816270527ca68e60898500b304d') in 0.270329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.297755 seconds.
-  path: Assets/DataFiles/Materials/Materials
-  artifactKey: Guid(2c25b9ade5b374fbc8ea07b50514edab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DataFiles/Materials/Materials using Guid(2c25b9ade5b374fbc8ea07b50514edab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16799812634d2a3d5fa36ac7a7438ce3') in 0.000652 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.054081 seconds.
-  path: Assets/DataFiles/Materials/Materials/Cake.mat
-  artifactKey: Guid(f0bfceb6d34f146f4875f96d6e11460d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DataFiles/Materials/Materials/Cake.mat using Guid(f0bfceb6d34f146f4875f96d6e11460d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42bc884a8d13b24af6d89abb8f0c421c') in 0.616963 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003096 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x17f363000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/dipenkhatri/Desktop/Restaurant/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/dipenkhatri/Desktop/Restaurant/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 6 plugins.
-Preloading 3 native plugins for Editor in 3.82 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <ecefe24ca6274b29a05906456681d74f>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <ecefe24ca6274b29a05906456681d74f>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <ecefe24ca6274b29a05906456681d74f>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <ecefe24ca6274b29a05906456681d74f>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <ecefe24ca6274b29a05906456681d74f>:0 
-  at VuforiaEnabledObserver..cctor () [0x00000] in <ecefe24ca6274b29a05906456681d74f>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:130)
-
-(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 130)
-
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <ecefe24ca6274b29a05906456681d74f>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <ecefe24ca6274b29a05906456681d74f>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <ecefe24ca6274b29a05906456681d74f>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <ecefe24ca6274b29a05906456681d74f>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <ecefe24ca6274b29a05906456681d74f>:0 
-  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <ecefe24ca6274b29a05906456681d74f>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:130)
-
-(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 130)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.441 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1442ms)
-		BeginReloadAssembly (119ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (1233ms)
-			LoadAssemblies (55ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (274ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (825ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (709ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.36 ms, found 6 plugins.
-Preloading 3 native plugins for Editor in 7.64 ms.
-Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (126.4 KB). Loaded Objects now: 4279.
-Memory consumption went from 264.8 MB to 264.7 MB.
-Total: 29.171250 ms (FindLiveObjects: 0.537792 ms CreateObjectMapping: 0.249083 ms MarkObjects: 27.786209 ms  DeleteObjects: 0.596625 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 88.121302 seconds.
-  path: Assets/DataFiles/Scripts/RotateModel.cs
-  artifactKey: Guid(2d88935569fa94261a731692da6e9c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DataFiles/Scripts/RotateModel.cs using Guid(2d88935569fa94261a731692da6e9c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b776092c35144c89c5e43227ea2ee25') in 0.108093 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003611 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x17f3db000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/dipenkhatri/Desktop/Restaurant/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/dipenkhatri/Desktop/Restaurant/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 6 plugins.
-Preloading 3 native plugins for Editor in 3.89 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <ecefe24ca6274b29a05906456681d74f>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <ecefe24ca6274b29a05906456681d74f>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <ecefe24ca6274b29a05906456681d74f>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <ecefe24ca6274b29a05906456681d74f>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <ecefe24ca6274b29a05906456681d74f>:0 
-  at VuforiaEnabledObserver..cctor () [0x00000] in <ecefe24ca6274b29a05906456681d74f>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:130)
-
-(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 130)
-
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <ecefe24ca6274b29a05906456681d74f>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <ecefe24ca6274b29a05906456681d74f>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <ecefe24ca6274b29a05906456681d74f>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <ecefe24ca6274b29a05906456681d74f>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <ecefe24ca6274b29a05906456681d74f>:0 
-  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <ecefe24ca6274b29a05906456681d74f>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:130)
-
-(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 130)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.408 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1408ms)
-		BeginReloadAssembly (95ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1222ms)
-			LoadAssemblies (44ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (269ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (819ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (5ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (702ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (700ms)
 				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.79 ms, found 6 plugins.
-Preloading 3 native plugins for Editor in 4.41 ms.
+Refreshing native plugins compatible for Editor in 4.75 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 9.06 ms.
 Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (118.9 KB). Loaded Objects now: 4282.
-Memory consumption went from 269.1 MB to 269.0 MB.
-Total: 4.781875 ms (FindLiveObjects: 0.236958 ms CreateObjectMapping: 0.105042 ms MarkObjects: 4.291625 ms  DeleteObjects: 0.147666 ms)
+Unloading 48 unused Assets / (126.6 KB). Loaded Objects now: 4240.
+Memory consumption went from 252.0 MB to 251.9 MB.
+Total: 6.525250 ms (FindLiveObjects: 0.396333 ms CreateObjectMapping: 0.135833 ms MarkObjects: 5.774000 ms  DeleteObjects: 0.217750 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -664,6 +442,101 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004155 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x17dcb7000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/dipenkhatri/Desktop/Restaurant/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/dipenkhatri/Desktop/Restaurant/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 3.81 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <ecefe24ca6274b29a05906456681d74f>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <ecefe24ca6274b29a05906456681d74f>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <ecefe24ca6274b29a05906456681d74f>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <ecefe24ca6274b29a05906456681d74f>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <ecefe24ca6274b29a05906456681d74f>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <ecefe24ca6274b29a05906456681d74f>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:130)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 130)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <ecefe24ca6274b29a05906456681d74f>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <ecefe24ca6274b29a05906456681d74f>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <ecefe24ca6274b29a05906456681d74f>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <ecefe24ca6274b29a05906456681d74f>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <ecefe24ca6274b29a05906456681d74f>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <ecefe24ca6274b29a05906456681d74f>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:130)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 130)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.375 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1376ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1195ms)
+			LoadAssemblies (43ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (259ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (810ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (696ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.26 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 4.01 ms.
+Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (127.4 KB). Loaded Objects now: 4243.
+Memory consumption went from 252.2 MB to 252.1 MB.
+Total: 3.187875 ms (FindLiveObjects: 0.186250 ms CreateObjectMapping: 0.070167 ms MarkObjects: 2.829125 ms  DeleteObjects: 0.101125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
