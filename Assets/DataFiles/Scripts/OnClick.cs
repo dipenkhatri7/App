@@ -24,4 +24,7 @@ SceneManager.LoadScene("Menu");
     public void OnProfileClick(){
         SceneManager.LoadScene("Profile");
     }
+    public void OnLoginScreen(){
+        SceneManager.LoadScene("ScanAr");
+    }
 }
